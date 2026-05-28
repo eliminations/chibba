@@ -1,0 +1,200 @@
+[
+    {
+        "num":  "12",
+        "name":  "Chibba 12",
+        "rank":  58,
+        "price":  0.089,
+        "mint":  "5sc7ucFfKqdWD1o34zvoifmeFkmnFy7iYVGRZRLhYoeB",
+        "head":  "Crown",
+        "misc":  "Rain",
+        "body":  "Purp",
+        "bg":  "Fuji"
+    },
+    {
+        "num":  "1083",
+        "name":  "Chibba 1083",
+        "rank":  67,
+        "price":  0.3,
+        "mint":  "44LMe4gbW18WfgAkFYQnR6KAe2F7A6QquETxZrom8hi6",
+        "head":  "Arcteryx",
+        "misc":  "Axe",
+        "body":  "Sick",
+        "bg":  "Cook Van"
+    },
+    {
+        "num":  "463",
+        "name":  "Chibba 463",
+        "rank":  117,
+        "price":  1,
+        "mint":  "GsyeEyMzvRJbp5LiEoYua4hHfVf3m3NW6zSNyQCDmXXe",
+        "head":  "Halo",
+        "misc":  "Rain",
+        "body":  "Tanned",
+        "bg":  "Farm"
+    },
+    {
+        "num":  "494",
+        "name":  "Chibba 494",
+        "rank":  228,
+        "price":  0.26,
+        "mint":  "B6M2WtBRWqmncwqmVPqfzVPb4TFwJcGDaDAYUmr2tiVf",
+        "head":  "General",
+        "misc":  "TAKE THIS",
+        "body":  "Purp",
+        "bg":  "Tall Grass"
+    },
+    {
+        "num":  "804",
+        "name":  "Chibba 804",
+        "rank":  244,
+        "price":  0.12759,
+        "mint":  "GcQUQGfnxPqv12JDqKLKGbrgLZqP2chwtYxDdtXMeyxt",
+        "head":  "Arcteryx",
+        "misc":  "None",
+        "body":  "Purp",
+        "bg":  "Fishy"
+    },
+    {
+        "num":  "6",
+        "name":  "Chibba 6",
+        "rank":  258,
+        "price":  0.1,
+        "mint":  "5x5QnQugFqFrq7MNE8S9S7P4p4dXKCtFwGugCMybeWWr",
+        "head":  "Green Beeret",
+        "misc":  "Weed",
+        "body":  "Tanned",
+        "bg":  "Splash"
+    },
+    {
+        "num":  "545",
+        "name":  "Chibba 545",
+        "rank":  275,
+        "price":  0.12759,
+        "mint":  "4EqX5TJva43AxFUJmv6s1EUiAH1H1fuHfYHdyLeC5LG3",
+        "head":  "Beesknees Teal",
+        "misc":  "Red Flower",
+        "body":  "Yellow",
+        "bg":  "Bubbles"
+    },
+    {
+        "num":  "913",
+        "name":  "Chibba 913",
+        "rank":  284,
+        "price":  1.1,
+        "mint":  "446CvEAE8nsTKuY9pAiBsocn7rX9Nq4SW9R6Bh26W3Zt",
+        "head":  "Red Niqab",
+        "misc":  "Pookie",
+        "body":  "Sick",
+        "bg":  "Beautiful Dream"
+    },
+    {
+        "num":  "82",
+        "name":  "Chibba 82",
+        "rank":  296,
+        "price":  0.89,
+        "mint":  "6QH9tGTyf5H4wcmw3z9egK6bLNJBRVXbAyNqYKqeAkcS",
+        "head":  "Beesknees Green",
+        "misc":  "Cute",
+        "body":  "Tanned",
+        "bg":  "Bubbles"
+    },
+    {
+        "num":  "211",
+        "name":  "Chibba 211",
+        "rank":  344,
+        "price":  0.6,
+        "mint":  "JDDwwZCSNF1uBycpfavkKF66ps9h63RYeZakA3c3ft32",
+        "head":  "Fedora",
+        "misc":  "Rain",
+        "body":  "Tanned",
+        "bg":  "Sunflower"
+    },
+    {
+        "num":  "48",
+        "name":  "Chibba 48",
+        "rank":  382,
+        "price":  0.123,
+        "mint":  "EToLMyJNUgMczBfsVrc8ECScRYpiFW2Jt4cm2rSH58Be",
+        "head":  "Crown",
+        "misc":  "Scoped",
+        "body":  "Shrek",
+        "bg":  "Farm"
+    },
+    {
+        "num":  "851",
+        "name":  "Chibba 851",
+        "rank":  413,
+        "price":  0.75,
+        "mint":  "8CNornCSQsrAf5DPCxMcgteMZLGoT3DgJzdWACn15pkB",
+        "head":  "Crimson Niqab",
+        "misc":  "Axe",
+        "body":  "Shrek",
+        "bg":  "Fishy"
+    },
+    {
+        "num":  "210",
+        "name":  "Chibba 210",
+        "rank":  421,
+        "price":  0.611,
+        "mint":  "8Wq259vbFB1ftcmdQqCNAoj1TESNDuznqRoxJato9kwF",
+        "head":  "General",
+        "misc":  "TAKE THIS",
+        "body":  "Purp",
+        "bg":  "Sunflower"
+    },
+    {
+        "num":  "1020",
+        "name":  "Chibba 1020",
+        "rank":  438,
+        "price":  0.22786,
+        "mint":  "BEpgMGhrFevbrgJ3WGEdYwjEou1JoeiCqEaCyGFKY2JE",
+        "head":  "Beesknees Red",
+        "misc":  "Bear Plushie",
+        "body":  "Tanned",
+        "bg":  "Flower Boy"
+    },
+    {
+        "num":  "431",
+        "name":  "Chibba 431",
+        "rank":  469,
+        "price":  1.15,
+        "mint":  "GGMzj23ebi8W2oc6G2n9L3k5A2CAVMjCX5K2EXaesjqy",
+        "head":  "Red Niqab",
+        "misc":  "AK",
+        "body":  "Tanned",
+        "bg":  "Dust"
+    },
+    {
+        "num":  "806",
+        "name":  "Chibba 806",
+        "rank":  478,
+        "price":  0.395,
+        "mint":  "6fvPQCirx9bR16kxqEUxW6uWuUTRQ2Moqd5YLTyjL4zA",
+        "head":  "Red Niqab",
+        "misc":  "Instagram",
+        "body":  "Purp",
+        "bg":  "Fishy"
+    },
+    {
+        "num":  "338",
+        "name":  "Chibba 338",
+        "rank":  484,
+        "price":  0.2,
+        "mint":  "795PyDdv4rMs2UhEJxWsYMqFRmMqq5mQxZ958NFjG51n",
+        "head":  "Green Beeret",
+        "misc":  "Scoped",
+        "body":  "Yellow",
+        "bg":  "Bee Farm"
+    },
+    {
+        "num":  "161",
+        "name":  "Chibba 161",
+        "rank":  521,
+        "price":  0.35095,
+        "mint":  "2j8VeFqBweQLpKTGEwuihgabhP7gR4t1MnMeGdy5Xbdr",
+        "head":  "Green Beeret",
+        "misc":  "None",
+        "body":  "Sick",
+        "bg":  "Bee Farm"
+    }
+]
