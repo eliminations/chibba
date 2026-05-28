@@ -24,9 +24,14 @@ const SoundContext = createContext<SoundContextValue | null>(null);
  * so no audio assets are required. Never autoplays — only fires after the user
  * has enabled sound (which also satisfies the browser gesture requirement).
  */
+const MUSIC_SRC = "/audio/chibba-theme.mp3";
+const MUSIC_VOLUME = 0.32;
+
 export function SoundProvider({ children }: { children: React.ReactNode }) {
   const [enabled, setEnabled] = useState(false);
   const ctxRef = useRef<AudioContext | null>(null);
+  const musicRef = useRef<HTMLAudioElement | null>(null);
+  const fadeRef = useRef<number | null>(null);
 
   const ensureContext = useCallback(() => {
     if (typeof window === "undefined") return null;
@@ -89,6 +94,41 @@ export function SoundProvider({ children }: { children: React.ReactNode }) {
     });
   }, [ensureContext]);
 
+  // Background music follows the global `enabled` flag: fades in when the user
+  // unmutes (a gesture, so autoplay is allowed) and fades out when muted.
+  useEffect(() => {
+    const el = musicRef.current;
+    if (!el) return;
+
+    if (fadeRef.current) cancelAnimationFrame(fadeRef.current);
+
+    const target = enabled ? MUSIC_VOLUME : 0;
+    const step = enabled ? 0.02 : 0.04;
+
+    if (enabled) {
+      el.volume = el.volume || 0;
+      void el.play().catch(() => {});
+    }
+
+    const tick = () => {
+      if (!el) return;
+      const diff = target - el.volume;
+      if (Math.abs(diff) <= step) {
+        el.volume = target;
+        if (!enabled) el.pause();
+        fadeRef.current = null;
+        return;
+      }
+      el.volume = Math.min(1, Math.max(0, el.volume + Math.sign(diff) * step));
+      fadeRef.current = requestAnimationFrame(tick);
+    };
+    fadeRef.current = requestAnimationFrame(tick);
+
+    return () => {
+      if (fadeRef.current) cancelAnimationFrame(fadeRef.current);
+    };
+  }, [enabled]);
+
   useEffect(() => {
     return () => {
       void ctxRef.current?.close();
@@ -97,6 +137,7 @@ export function SoundProvider({ children }: { children: React.ReactNode }) {
 
   return (
     <SoundContext.Provider value={{ enabled, toggle, play }}>
+      <audio ref={musicRef} src={MUSIC_SRC} loop preload="auto" />
       {children}
     </SoundContext.Provider>
   );
